@@ -1,0 +1,17 @@
+/*
+Theme Name: Twenty Seventeen (child)
+Theme URI: http://lottaleben.de/twentyseventeen-child/
+description: Twenty Fifteen Child Theme
+Author: Lucas Araujo
+Author URI: http://lottaleben.de
+Template: twentyseventeen
+Version: 1.0.0
+Requires at least: 4.9
+Requires PHP: 7.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen-child
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+*/
+
+@import url("../twentyseventeen/style.css");

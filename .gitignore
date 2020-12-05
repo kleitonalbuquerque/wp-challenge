@@ -1,0 +1,9 @@
+/content/themes/twentyseventeen
+/content/vendor/*
+/content/plugins/*
+/content/uploads/*
+/config/*
+/wp/*
+
+!/wp/wp-config.php
+!/config/local.php.example

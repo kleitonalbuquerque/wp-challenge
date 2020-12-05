@@ -1,0 +1,41 @@
+{
+    "name": "lottaleben/fullstack-test",
+    "description": "Full Stack challenge test for LottaLeben",
+    "type": "project",
+    "minimum-stability": "dev",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "wp-premium/advanced-custom-fields-pro",
+              "version": "1.2.3",
+              "type": "wordpress-plugin",
+              "source": {
+                "url": "https://github.com/wp-premium/advanced-custom-fields-pro.git",
+                "type": "git",
+                "reference": "master"
+              }
+            }
+          }
+    ],
+    "config": {
+        "vendor-dir": "content/vendor"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "johnpbloch/wordpress": "~4.9",
+        "wpackagist-theme/twentyseventeen":"2.4",
+        "wp-premium/advanced-custom-fields-pro":"*"
+    }
+}
